@@ -32,3 +32,7 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
+      
+      - name: roll updates  
+        run: docker service update -d --image amanthakur/javabrainscourseapi courseapi
+        
