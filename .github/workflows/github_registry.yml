@@ -4,13 +4,6 @@ on:
     branches: [ master ]
 jobs:
 
-  package:
-    runs-on: self-hosted
-    steps:
-
-      - name: package
-        run: mvn clean package
-
   build:
     runs-on: self-hosted
     steps:
