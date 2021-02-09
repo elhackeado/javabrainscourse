@@ -8,7 +8,7 @@ public class HelloController {
 	
 	@RequestMapping("/")
 	public String sayHi() {
-		return "Welcome to JavaBrains Course API";
+		return "Welcome to JavaBrains Course API  --- Update 1";
 	}
 
 }
